@@ -1,5 +1,9 @@
 # User-specific stuff
-.idea/
+.idea/*
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
+.idea/runConfigurations/backups/
+!.idea/vcs.xml
 
 *.iml
 *.ipr

@@ -5,8 +5,8 @@ public final class JumpDuplicatorConfig {
     public double radius = 16.0D;
     public double verticalOffset = 1.0D;
     public int duplicationAmount = 1;
-    public int cooldownTicks = 0;
-    public int maximumEntitiesPerJump = 100;
+    public int cooldownTicks = 1;
+    public int maximumEntitiesPerJump = 1000;
     public boolean duplicateItems = true;
     public Boolean duplicateOnlySingleItems = true;
     public boolean duplicateExperienceOrbs = true;
