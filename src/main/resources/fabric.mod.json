@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jumpduplicator",
+  "version": "${version}",
+  "name": "Jump Duplicator",
+  "description": "Duplicates nearby entities when a player starts a valid jump.",
+  "authors": [
+    "Magic"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.magic.jumpduplicator.JumpDuplicatorMod"
+    ]
+  },
+  "mixins": [
+    "jumpduplicator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=25"
+  }
+}

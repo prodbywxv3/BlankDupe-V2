@@ -1,0 +1,7 @@
+{
+  "text.jumpduplicator.duplicated": "Duplicated %s nearby entities.",
+  "text.jumpduplicator.no_permission": "You do not have permission to use Jump Duplicator.",
+  "text.jumpduplicator.reload.success": "Jump Duplicator configuration reloaded.",
+  "text.jumpduplicator.enabled": "Jump Duplicator enabled.",
+  "text.jumpduplicator.disabled": "Jump Duplicator disabled."
+}

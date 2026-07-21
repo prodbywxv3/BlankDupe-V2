@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "de.magic.jumpduplicator.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "PlayerJumpMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
