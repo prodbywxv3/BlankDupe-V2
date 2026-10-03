@@ -12,6 +12,9 @@
   "entrypoints": {
     "main": [
       "de.magic.jumpduplicator.JumpDuplicatorMod"
+    ],
+    "modmenu": [
+      "de.magic.jumpduplicator.client.JumpDuplicatorModMenuIntegration"
     ]
   },
   "mixins": [
@@ -22,5 +25,9 @@
     "fabric-api": "*",
     "minecraft": "${minecraft_version}",
     "java": ">=25"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "yacl": "*"
   }
 }
